@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "weapon.dtd">
+<list>
+	<weapon id="26700" weapon="21919" name="Hellblade" type="Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26701" weapon="21939" name="Claw of Destruction" type="Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26702" weapon="21959" name="Blood Brother" type="Big Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26703" weapon="6368" name="Shining Bow" type="Bow">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26704" weapon="21955" name="Blades of Delusion" type="Dual Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26705" weapon="21935" name="Butcher Blades" type="Dual Dagger">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26706" weapon="21973" name="Mardil's Fan" type="Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26707" weapon="15676" name="Triumph Blade" type="Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26708" weapon="15677" name="Triumph Dagger" type="Dagger">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26709" weapon="15678" name="Triumph Hammer" type="Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26710" weapon="15679" name="Triumph Crusher" type="Big Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26711" weapon="15680" name="Triumph Two Hand Sword" type="Big Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26712" weapon="15681" name="Triumph Jamadhr" type="Dual Fist">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26713" weapon="15682" name="Triumph Spear" type="Pole">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26714" weapon="15683" name="Triumph Staff" type="Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26715" weapon="15684" name="Triumph Two Hand Staff" type="Big Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26716" weapon="15685" name="Triumph Magic Sword" type="Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26717" weapon="15686" name="Triumph Bow" type="Bow">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26718" weapon="15687" name="Triumph Rapier" type="Rapier">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26719" weapon="15688" name="Triumph Ancientsword" type="Ancient Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26720" weapon="15689" name="Triumph Crossbow" type="Crossbow">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26721" weapon="129" name="Sword of Revolution" type="Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26722" weapon="224" name="Maingauche" type="Dagger">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26723" weapon="158" name="Tarbar" type="Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26724" weapon="187" name="Atuba Hammer" type="Big Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26725" weapon="70" name="Claymore" type="Big Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26726" weapon="261" name="Bich'Hwa" type="Dual Fist">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26727" weapon="294" name="War Pick" type="Pole">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26728" weapon="189" name="Staff of Life" type="Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26729" weapon="90" name="Goat Head Staff" type="Big Blunt">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26730" weapon="83" name="Sword of Magic" type="Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26731" weapon="279" name="Reinforced Long Bow" type="Bow">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26732" weapon="2533" name="Spinebone Sword's" type="Dual Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26733" weapon="9219" name="Estoc" type="Rapier">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26734" weapon="9223" name="Katzbalger" type="Ancient Sword">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26735" weapon="9221" name="Crossbow" type="Crossbow">
+		<price id="57" count="100000" />
+	</weapon>
+	<weapon id="26736" weapon="21990" name="Warm Bear Paws" type="Dual Fist">
+		<price id="57" count="100000" />
+	</weapon>
+</list>

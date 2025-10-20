@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+
+<list>
+	<config bbsallowed="true" />
+  <!-- Mithril Set Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26848" count="1"/>
+  </item>
+
+  <!-- Brigandine Set Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26849" count="1"/>
+  </item>
+
+  <!-- Manticore Skin Set Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26850" count="1"/>
+  </item>
+
+  <!-- Apella Plate Set Suit -->
+  <item>
+    <ingredient id="4356" count="40"/>
+    <production id="26851" count="1"/>
+  </item>
+
+  <!-- Apella Brigandine Set Suit -->
+  <item>
+    <ingredient id="4356" count="40"/>
+    <production id="26852" count="1"/>
+  </item>
+
+  <!-- Apella Doublet Set Suit -->
+  <item>
+    <ingredient id="4356" count="40"/>
+    <production id="26853" count="1"/>
+  </item>
+
+  <!-- Beach Swimsuit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26875" count="1"/>
+  </item>
+
+  <!-- Swimsuit of Charm -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26876" count="1"/>
+  </item>
+
+  <!-- Swimsuit of Temptation -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26877" count="1"/>
+  </item>
+
+  <!-- Underwear -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26878" count="1"/>
+  </item>
+
+  <!-- Beach Dress -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26882" count="1"/>
+  </item>
+
+  <!-- Beach Dress V2 -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26883" count="1"/>
+  </item>
+
+  <!-- Robot's Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26903" count="1"/>
+  </item>
+
+  <!-- Army Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="26904" count="1"/>
+  </item>
+
+  <!-- Maid's Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26905" count="1"/>
+  </item>
+
+  <!-- Tatto Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26907" count="1"/>
+  </item>
+
+  <!-- Tatto Suit V2 -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26908" count="1"/>
+  </item>
+
+  <!-- Tatto Suit V3 -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26909" count="1"/>
+  </item>
+
+  <!-- Vampire Hunter's Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="26910" count="1"/>
+  </item>
+
+  <!-- Christmas Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="31248" count="1"/>
+  </item>
+
+  <!-- Robber's Suit -->
+  <item>
+    <ingredient id="4356" count="230"/>
+    <production id="31249" count="1"/>
+  </item>
+
+  <!-- Crusader's Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="31251" count="1"/>
+  </item>
+
+  <!-- Wind Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="31279" count="1"/>
+  </item>
+
+  <!-- Wolverine Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="31389" count="1"/>
+  </item>
+
+  <!-- Ninja Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31391" count="1"/>
+  </item>
+
+  <!-- Kadeira Suit -->
+  <item>
+    <ingredient id="4356" count="100"/>
+    <production id="31496" count="1"/>
+  </item>
+
+  <!-- Immortal Suit -->
+  <item>
+    <ingredient id="4356" count="100"/>
+    <production id="31497" count="1"/>
+  </item>
+
+  <!-- Tauti Heavy Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="31498" count="1"/>
+  </item>
+
+  <!-- Tauti Light Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="31499" count="1"/>
+  </item>
+
+  <!-- Tauti Robe Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="31500" count="1"/>
+  </item>
+
+  <!-- Aydios Heavy Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="31501" count="1"/>
+  </item>
+
+  <!-- Aydios Light Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="31502" count="1"/>
+  </item>
+
+  <!-- Aydios Robe Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="31503" count="1"/>
+  </item>
+
+  <!-- Chinese Suit Red -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31504" count="1"/>
+  </item>
+
+  <!-- Chinese Suit Blue -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31505" count="1"/>
+  </item>
+
+  <!-- Chinese Suit Purple -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31506" count="1"/>
+  </item>
+
+  <!-- Chinese Suit Pink -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31507" count="1"/>
+  </item>
+
+  <!-- Officer Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31508" count="1"/>
+  </item>
+
+  <!-- Beleth's Suit -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="31509" count="1"/>
+  </item>
+
+  <!-- Halloween Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31536" count="1"/>
+  </item>
+
+  <!-- Dark Knight's Suit -->
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="31552" count="1"/>
+  </item>
+
+  <!-- School Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31553" count="1"/>
+  </item>
+
+  <!-- School Suit V2 -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31554" count="1"/>
+  </item>
+
+  <!-- Captain's Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31653" count="1"/>
+  </item>
+
+  <!-- Pirate's Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31654" count="1"/>
+  </item>
+
+  <!-- Musketeer's Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31655" count="1"/>
+  </item>
+
+  <!-- Wizard's Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31656" count="1"/>
+  </item>
+
+  <!-- White Robber's Suit -->
+  <item>
+    <ingredient id="4356" count="230"/>
+    <production id="31855" count="1"/>
+  </item>
+
+  <!-- White Halloween Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31861" count="1"/>
+  </item>
+
+  <!-- King Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31892" count="1"/>
+  </item>
+
+  <!-- Archer Suit -->
+  <item>
+    <ingredient id="4356" count="160"/>
+    <production id="31894" count="1"/>
+  </item>
+
+  <!-- Hellblade -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26700" count="1"/>
+  </item>
+
+  <!-- Claw of Destruction -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26701" count="1"/>
+  </item>
+
+  <!-- Blood Brother -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26702" count="1"/>
+  </item>
+
+  <!-- Shining Bow -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26703" count="1"/>
+  </item>
+
+  <!-- Blades of Delusion -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26704" count="1"/>
+  </item>
+
+  <!-- Butcher Blades -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26705" count="1"/>
+  </item>
+
+  <!-- Mardil's Fan -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26706" count="1"/>
+  </item>
+
+  <!-- Warm Bear Fist -->
+  <item>
+    <ingredient id="4356" count="250"/>
+    <production id="26736" count="1"/>
+  </item>
+
+  <!-- Triumph Blade -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26707" count="1"/>
+  </item>
+
+  <!-- Triumph Dagger -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26708" count="1"/>
+  </item>
+
+  <!-- Triumph Hammer -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26709" count="1"/>
+  </item>
+
+  <!-- Triumph Crusher -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26710" count="1"/>
+  </item>
+
+  <!-- Triumph Two Hand Sword -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26711" count="1"/>
+  </item>
+
+  <!-- Triumph Jamadhr -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26712" count="1"/>
+  </item>
+
+  <!-- Triumph Spear -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26713" count="1"/>
+  </item>
+
+  <!-- Triumph Staff -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26714" count="1"/>
+  </item>
+
+  <!-- Triumph Two Hand Staff -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26715" count="1"/>
+  </item>
+
+  <!-- Triumph Magic Sword -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26716" count="1"/>
+  </item>
+
+  <!-- Triumph Bow -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26717" count="1"/>
+  </item>
+
+  <!-- Triumph Rapier -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26718" count="1"/>
+  </item>
+
+  <!-- Triumph Ancientsword -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26719" count="1"/>
+  </item>
+
+  <!-- Triumph Crossbow -->
+  <item>
+    <ingredient id="4356" count="140"/>
+    <production id="26720" count="1"/>
+  </item>
+
+  <!-- Sword of Revolution -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26721" count="1"/>
+  </item>
+
+  <!-- Maingauche -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26722" count="1"/>
+  </item>
+
+  <!-- Tarbar -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26723" count="1"/>
+  </item>
+
+  <!-- Atuba Hammer -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26724" count="1"/>
+  </item>
+
+  <!-- Claymore -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26725" count="1"/>
+  </item>
+
+  <!-- Bich'Hwa -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26726" count="1"/>
+  </item>
+
+  <!-- War Pick -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26727" count="1"/>
+  </item>
+
+  <!-- Staff of Life -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26728" count="1"/>
+  </item>
+
+  <!-- Goat Head Staff -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26729" count="1"/>
+  </item>
+
+  <!-- Sword of Magic -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26730" count="1"/>
+  </item>
+
+  <!-- Reinforced Long Bow -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26731" count="1"/>
+  </item>
+
+  <!-- Spinebone Sword's -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26732" count="1"/>
+  </item>
+
+  <!-- Estoc -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26733" count="1"/>
+  </item>
+
+  <!-- Katzbalger -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26734" count="1"/>
+  </item>
+
+  <!-- Crossbow -->
+  <item>
+    <ingredient id="4356" count="180"/>
+    <production id="26735" count="1"/>
+  </item>
+
+</list>

@@ -1,0 +1,22 @@
+<HTML><HEAD><BODY>The list of goods: <br>
+<font color=FFCC66>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 0 1 0 0(param=${type})}">List all</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:equipment {param}(param=${type})}">Equipment</a><br>
+<a th:if="${type == 1}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:equipment4 {param}(param=${type})}">Equipment +4 and more</a><br>
+<a th:unless="${type == 5}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 0 1 0 1(param=${type})}">Rare equipment</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 5 1 0 0(param=${type})}">Consumable</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 6 1 0 0(param=${type})}">Materials</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 7 1 0 0(param=${type})}">Key materials</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 8 1 0 0(param=${type})}">Recipes</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 9 1 0 0(param=${type})}">Books and amulets</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 10 1 0 0(param=${type})}">Enchant items</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 11 1 0 0(param=${type})}">Other</a><br>
+<a th:unless="${type == 5}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 90 1 0 0(param=${type})}">Commons</a><br>
+</font>
+
+<font color="FF9900">
+<edit var="tofind" width=100 />
+<a th:unless="${type == 5}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:find {param} 1 $tofind(param=${type})}">Find</a><br>
+<a action="bypass -h npc_%objectId%_Chat 0">Back</a>
+</font>
+</BODY></HTML>

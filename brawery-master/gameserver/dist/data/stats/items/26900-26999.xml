@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<armor id="26900" name="Black Cap">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_m"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26901" name="Field Cap">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_f"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26902" name="Vimpire's Wings">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_skill23383"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="26903" name="Robot's Suit">
+		<set name="icon" value="BranchSys3.icon.g_co_sf_u"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26904" name="Army Suit">
+		<set name="icon" value="BranchSys3.icon.g_co_military_u"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26905" name="Maid's Suit">
+		<set name="icon" value="BranchSys3.icon.g_co_cutie_maid"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="26906" name="Robot's Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_sf_hair"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="26907" name="Tatto Suit">
+		<set name="icon" value="BranchSys3.icon1.g_co_tatu"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26908" name="Tatto Suit V2">
+		<set name="icon" value="BranchSys3.icon1.g_co_tatu"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26909" name="Tatto Suit V3">
+		<set name="icon" value="BranchSys3.icon1.g_co_tatu"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26910" name="Vampire Hunter's Suit">
+		<set name="icon" value="BranchSys3.icon.g_co_cutie_maid"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="26911" name="Blue beret">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_m"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26912" name="Red beret">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_m"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26913" name="Yellow beret">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_m"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26914" name="Blue field cap">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_f"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26915" name="Red field cap">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_f"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26916" name="Yellow field cap">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_co_military_hair_f"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="26917" name="Ninja Costume">
+		<set name="icon" value="BranchSys3.icon1.g_co_ninja_u"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26918" name="Potion Certificate">
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crest_red_i00"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="freightable" value="false"/>
+		<set name="type" value="OTHER"/>
+	</etcitem>
+	<etcitem id="26919" name="Potion Certificate" add_name="7 Day Expiration Period">
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crest_red_i00"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="freightable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="durability" value="10080"/>
+		<set name="type" value="OTHER"/>
+	</etcitem>
+</list>

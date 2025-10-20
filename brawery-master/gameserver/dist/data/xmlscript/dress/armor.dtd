@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (dress)*>
+<!ELEMENT dress (set|price)*>
+<!ATTLIST dress
+	id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	isCostume CDATA #IMPLIED>
+<!ELEMENT set (#PCDATA)>
+<!ATTLIST set
+	chest CDATA #REQUIRED
+	legs CDATA #REQUIRED
+	gloves CDATA #REQUIRED
+	feet CDATA #REQUIRED
+	helmet CDATA "0"
+	cloak CDATA "0">
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+	id CDATA #REQUIRED
+	count CDATA #REQUIRED>

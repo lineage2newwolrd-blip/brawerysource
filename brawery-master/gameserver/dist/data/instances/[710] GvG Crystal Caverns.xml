@@ -1,0 +1,17 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="710" displayId="1" name="GvG in Crystal Caverns" maxChannels="20" collapseIfEmpty="5" timelimit="5000" dispelBuffs="false" respawn="60">
+		<geodata map="24_22"/>
+		<teleport loc="148280 142808 -12210 16384" />
+		<teleport loc="148056 145512 -12225 49152" />
+		<teleport loc="149448 144248 -12225 32768" />
+		<doors>
+			<door id="24220001"/>
+			<door id="24220002"/>
+			<door id="24220003"/>
+			<door id="24220004"/>
+			<door id="24220005"/>
+			<door id="24220020"/>
+		</doors>
+	</instance>
+</list>

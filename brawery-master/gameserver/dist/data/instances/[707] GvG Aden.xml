@@ -1,0 +1,13 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="707" displayId="1" name="GvG near Aden Castle" maxChannels="20" collapseIfEmpty="5" timelimit="5000" dispelBuffs="false" respawn="60">
+		<geodata map="24_18" />
+		<teleport loc="145912 14800 -1280" />
+		<teleport loc="149000 14800 -1280 32768" />
+		<teleport loc="147464 13336 -1070 16384" />
+		<doors>
+			<door id="24180001" opened="false"/>
+			<door id="24180002" opened="false"/>
+		</doors>
+	</instance>
+</list>

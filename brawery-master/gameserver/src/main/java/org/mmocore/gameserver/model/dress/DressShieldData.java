@@ -1,0 +1,51 @@
+package org.mmocore.gameserver.model.dress;
+
+import org.mmocore.gameserver.data.xml.holder.ItemTemplateHolder;
+import org.mmocore.gameserver.templates.item.ItemTemplate;
+
+/**
+ * Created by Hack
+ * Date: 17.08.2016 17:52
+ */
+public class DressShieldData {
+    private final int _id;
+    private final int _shield;
+    private final String _name;
+    private final String _icon;
+    private final int _priceId;
+    private final long _priceCount;
+
+    public DressShieldData(int id, int shield, String name, int priceId, long priceCount) {
+        _id = id;
+        _shield = shield;
+        _name = name;
+        _priceId = priceId;
+        _priceCount = priceCount;
+        ItemTemplate shieldTemplate = ItemTemplateHolder.getInstance().getTemplate(shield);
+        _icon = shieldTemplate != null? shieldTemplate.getIcon() : "";
+    }
+
+    public int getId() {
+        return _id;
+    }
+
+    public int getShieldId() {
+        return _shield;
+    }
+
+    public String getName() {
+        return _name;
+    }
+
+    public int getPriceId() {
+        return _priceId;
+    }
+
+    public long getPriceCount() {
+        return _priceCount;
+    }
+
+    public String get_icon() {
+        return _icon;
+    }
+}

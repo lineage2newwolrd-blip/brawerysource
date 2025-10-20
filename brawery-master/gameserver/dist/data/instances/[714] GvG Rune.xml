@@ -1,0 +1,13 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="714" displayId="1" name="GvG near Rune" maxChannels="20" collapseIfEmpty="5" timelimit="5000" dispelBuffs="false" respawn="60">
+		<geodata map="20_16"/>
+		<teleport loc="21832 -50248 -1280 16384" />
+		<teleport loc="21880 -48040 -1280 49152" />
+		<teleport loc="22296 -49128 -1280 32768" />
+		<doors>
+			<door id="20160001" opened="false"/>
+			<door id="20160002" opened="false"/>
+		</doors>
+	</instance>
+</list>

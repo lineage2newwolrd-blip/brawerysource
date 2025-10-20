@@ -1,0 +1,9 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="704" displayId="1" name="GvG on IoP" maxChannels="20" collapseIfEmpty="5" timelimit="5000" dispelBuffs="false" respawn="60">
+		<geodata map="24_23" />
+		<teleport loc="155944 169496 -3330" />
+		<teleport loc="157240 170792 -3460 32768" />
+		<teleport loc="155864 170360 -3400" />
+	</instance>
+</list>

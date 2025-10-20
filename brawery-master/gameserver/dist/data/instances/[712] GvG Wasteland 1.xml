@@ -1,0 +1,9 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="712" displayId="1" name="GvG near Wasteland #1" maxChannels="20" collapseIfEmpty="5" timelimit="5000" dispelBuffs="false" respawn="60">
+		<geodata map="19_24"/>
+		<teleport loc="-16664 207672 -3650 8192" />
+		<teleport loc="-15608 209944 -3650 40960" />
+		<teleport loc="-16792 209080 -3650 57344" />
+	</instance>
+</list>

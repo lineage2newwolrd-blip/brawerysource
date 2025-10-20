@@ -1,0 +1,61 @@
+{
+	###### Undergroung coliseum ######
+	# Включены ли подземные арены на Fantasy Island
+	"UndergroundColiseum" : "true",
+	# Минимальное количество игроков в пати, для регистрации в битве
+	"UndergroundColiseumMemberCount" : "7",
+
+    #######	Fight Club #######
+    # Allow Fight Club
+    "AllowFightClub":"true",
+    # Should only 1 player per HWID be able to join Event at the time?
+    "FightClubHwidCheck":"false",
+    # Which Event should be disabled?
+    # Counter will stop on Event was Started message
+	# Format(event_id): 3;4
+    # Default: -1
+    "FightClubNotAllowedEvent":"-1",
+
+    "FightClubEqualizeRooms":"true",
+
+    # Enable random event?
+    "RandomEvent":"true",
+    #Period in minutes
+    "RandomEventTime": "60",
+    #Reward Badges
+    "FightClubReward":"4357",
+    # Random event reward. Format: itemId,chance;
+	# Example: 4357,20;4067,13
+    "FightClubRandomItems":"4357,20;57,100000",
+
+    "AllowJoinParty":"true",
+	# Длительность геройства за победу в минутах
+	"TempHeroDurationMin" : "180",
+	# Разрешить использовать хиро чат победителю?
+	"AllowHeroChatForTempHero" : "true",
+	
+	##### Evas Infero #####
+	# Шанс дропа какого-либо огненного семени
+	# По-умолчанию - 5%
+	"dropChance" : "5",
+	# Шанс того, что семя будет взрывным (20586). Иначе обычное (20585).
+	"explosionChance" : "50",
+	
+	##### Item On Level Up #####
+	# Включить функцию
+	"ItemOnLevelUpActive" : "false",
+	# Лвлы на которых выдается награда
+	"lvlsForReward" : "52-58;61-67;76-78",
+	# Id итема для выдачи, по порядку соответствует заданным уровням
+	"lvlsForRewardItems" : "57;57;57",
+	# Количество итемов для выдачи, по порядку соответствует заданным Items
+	"lvlsForRewardCount" : "100000;1500000;5000000",
+	#Htm файл открываемый при получении предмета, по порядку соответствует заданным Lvl
+	"lvlsForRewardHtm" : "admin/events/52.htm;admin/events/61.htm;admin/events/76.htm",
+	# Лвлы на которых предлагается тп
+	"lvlsForTeleport" : "53-59;62-68;77-79",
+	#Координаты локации, по порядку соответствует заданным уровням. (x:y:z)
+	"locForTeleport" : "114568:44248:-3368;68104:-72040:-3744;114568:44248:-3368;",
+	#Имя локации, по порядку соответствует заданным локациям.
+	"locNameForTeleport" : "Залупково;Хуилкино;Уебкино"
+}

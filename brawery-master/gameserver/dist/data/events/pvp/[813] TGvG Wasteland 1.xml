@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="813" name="GvG Wasteland #1 Battle" impl="TournamentGvGBattle">
+		<parameter name="instance_id" value="712" />
+		<on_init>
+			<start name="reenter" /> <!-- разрешить релог -->
+		</on_init>
+		<on_time>
+			<on time="-120">
+				<announce val="120" />
+			</on>
+			<on time="-60">
+				<announce val="60" />
+			</on>
+			<on time="-30">
+				<announce val="30" />
+			</on>
+			<on time="-15">
+				<announce val="15" />
+			</on>
+			<on time="-5">
+				<announce val="5" />
+			</on>
+			<on time="-4">
+				<announce val="4" />
+			</on>
+			<on time="-3">
+				<announce val="3" />
+			</on>
+			<on time="-2">
+				<announce val="2" />
+			</on>
+			<on time="-1">
+				<announce val="1" />
+			</on>
+			<on time="0">
+				<start name="event" />
+			</on>
+		</on_time>
+	</event>
+</list>

@@ -1,0 +1,12 @@
+<HTML><HEAD><BODY>The list of equipment: <br>
+<font color="FFCC66">
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 1 1 0 0(param=${type})}">Weapons</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 2 1 0 0(param=${type})}">Armors</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 3 1 0 0(param=${type})}">Jewels</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 4 1 0 0(param=${type})}">Accessories</a><br>
+</font>
+
+<font color="FF9900">
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:main {param}(param=${type})}">Back</a>
+</font>
+</BODY></HTML>

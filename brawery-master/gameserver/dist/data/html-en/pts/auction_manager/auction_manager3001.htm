@@ -1,0 +1,14 @@
+<HTML><HEAD><BODY>Adventurer's Craft Item Saleclerk: <br>
+Welcome! We are selling precious items never before seen. We only have a limited number, so only the highest bidders will benefit!<br>
+<a action="bypass -h npc_%objectId%_Link pts/auction_manager/item_auction_rule_info001.htm">View Sales Rule</a> <br>
+<a action="bypass -h npc_%objectId%_item_auction_bid">Buy Item</a><br>
+<a action="bypass -h npc_%objectId%_item_auction_withdraw">Receive Bid Amount </a><br>
+<th th:if="${ITEM_BROKER_ITEM_SEARCH}">
+<font color="LEVEL">Search for dealers:</font><br>
+<font color="FFCC66">
+<a action="bypass -h npc_%objectId%_services.ItemBroker:main 1">The list of goods for sale</a><br>
+<a action="bypass -h npc_%objectId%_services.ItemBroker:main 3">The list of goods to buy</a><br>
+<a action="bypass -h npc_%objectId%_services.ItemBroker:main 5">The list of goods to craft</a><br>
+</font>
+</th>
+</BODY></HTML>

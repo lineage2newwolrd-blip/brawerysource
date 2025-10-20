@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+    <npc id="53001" template_id="35608" name="Red Flag" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="108.25" />
+        <set name="collision_radius" value="51.8" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="0" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="0" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagToCapture" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53002" template_id="35609" name="Blue Flag" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="108.25" />
+        <set name="collision_radius" value="51.8" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="0" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="0" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagToCapture" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53003" template_id="35610" name="Green Flag" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="108.25" />
+        <set name="collision_radius" value="51.8" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="0" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="0" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagToCapture" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53004" template_id="35611" name="Purple Flag" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="108.25" />
+        <set name="collision_radius" value="51.8" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="0" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="0" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagToCapture" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53005" template_id="35607" name="Yellow Flag" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="108.25" />
+        <set name="collision_radius" value="51.8" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="0" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="0" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagToCapture" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+
+    <npc id="53006" template_id="35423" name="Red Team" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="55.0" />
+        <set name="collision_radius" value="75.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagHolder" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53007" template_id="35426" name="Blue Team" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="55.0" />
+        <set name="collision_radius" value="75.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagHolder" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53008" template_id="35425" name="Green Team" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="55.0" />
+        <set name="collision_radius" value="75.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagHolder" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53009" template_id="35427" name="Purple Team" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="55.0" />
+        <set name="collision_radius" value="75.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagHolder" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+    <npc id="53010" template_id="35424" name="Yellow Team" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="2676.65854" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="55.0" />
+        <set name="collision_radius" value="75.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.FlagHolder" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+   <npc id="53011" template_id="35422" name="Team Base" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="10000" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="50" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="72.0" />
+        <set name="collision_radius" value="100.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.Base" />
+       <ai_params>
+           <set name="TargetEnabled" value="false" />
+           <set name="showName" value="false" />
+       </ai_params>
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+
+	<npc id="53012" template_id="36590" name="Base" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="10000" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="50" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="542.68324" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="233.61053" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1507.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="794.70901" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="319.24623" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="50" />
+        <set name="collision_height" value="55.0" />
+        <set name="collision_radius" value="75.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="75" />
+        <set name="rewardExp" value="563" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="12" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.Base" />
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="19" />	<!--Others-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+	</npc>
+    <npc id="53013" template_id="32845" name="Chest" title="">
+        <set name="aggroRange" value="0" />
+        <set name="ai_type" value="CharacterAI" />
+        <set name="baseAtkRange" value="40" />
+        <set name="baseAtkType" value="SWORD" />
+        <set name="baseCON" value="43" />
+        <set name="baseCritRate" value="40" />
+        <set name="baseDEX" value="30" />
+        <set name="baseHpMax" value="3290.11306877694" />
+        <set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="8.5" />
+        <set name="baseINT" value="21" />
+        <set name="baseMAtk" value="662.751329129412" />
+        <set name="baseMAtkSpd" value="500" />
+        <set name="baseMDef" value="249.80341" />
+        <set name="baseMEN" value="20" />
+        <set name="baseMpMax" value="1674.8" />
+        <set name="baseMpReg" value="3" />
+        <set name="basePAtk" value="970.537548504614" />
+        <set name="basePAtkSpd" value="253" />
+        <set name="basePDef" value="341.375" />
+        <set name="baseRunSpd" value="120" />
+        <set name="baseSTR" value="40" />
+        <set name="baseShldDef" value="0" />
+        <set name="baseShldRate" value="0" />
+        <set name="baseWIT" value="20" />
+        <set name="baseWalkSpd" value="30" />
+        <set name="collision_height" value="8.0" />
+        <set name="collision_radius" value="11.0" />
+        <set name="corpse_time" value="7" />
+        <set name="level" value="80" />
+        <set name="rewardExp" value="0" />
+        <set name="rewardRp" value="0" />
+        <set name="rewardSp" value="0" />
+        <set name="soulshot_count" value="0" />
+        <set name="spiritshot_count" value="0" />
+        <set name="type" value="events.fightClub.TreasureChest" />
+        <ai_params>
+            <set name="noRandomWalk" value="true" />
+        </ai_params>
+        <skills>
+            <skill id="4045" level="1" />	<!--Resist Full Magic Attack-->
+            <skill id="4390" level="1" />	<!--NPC Abnormal Immunity-->
+            <skill id="4408" level="1" />	<!--HP Increase (1x)-->
+            <skill id="4409" level="1" />	<!--MP Increase (1x)-->
+            <skill id="4410" level="11" />	<!--Average P. Atk.-->
+            <skill id="4411" level="11" />	<!--Average M. Atk.-->
+            <skill id="4412" level="11" />	<!--Average P. Def.-->
+            <skill id="4413" level="11" />	<!--Average M. Def.-->
+            <skill id="4414" level="2" />	<!--Standard Type-->
+            <skill id="4415" level="3" />	<!--One-handed Sword-->
+            <skill id="4416" level="2" />	<!--Magic Creatures-->
+        </skills>
+        <attributes>
+            <defence attribute="fire" value="20" />
+            <defence attribute="water" value="20" />
+            <defence attribute="wind" value="20" />
+            <defence attribute="earth" value="20" />
+            <defence attribute="holy" value="20" />
+            <defence attribute="unholy" value="20" />
+        </attributes>
+    </npc>
+</list>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<etcitem id="26848" name="Mithril Set - Robe">
+		<set name="icon" value="icon.armor_t51_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26849" name="Brigandine Set - Heavy">
+		<set name="icon" value="icon.armor_t43_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26850" name="Manticore Skin Set - Light">
+		<set name="icon" value="icon.armor_t42_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26851" name="Apella Plate Set - Heavy">
+		<set name="icon" value="icon.armor_t1004_ul_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26852" name="Apella Brigandine Set - Light">
+		<set name="icon" value="icon.armor_t1005_ul_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26853" name="Apella Doublet Set - Robe">
+		<set name="icon" value="icon.armor_t1006_ul_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="26860" name="Ninja's Hairdress">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon1.g_co_ninja_hair"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26861" name="Black Bear's Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.Icon.g_hat_of_blackbear"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26862" name="Colourful Beach Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_beach_cap"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26863" name="Halloween Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_halloween_magic_hat"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26867" name="Knight's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26868" name="Archer's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26869" name="Support's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26870" name="Healer's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26871" name="Dagger's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26872" name="Warrior's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26873" name="Summoner's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="26874" name="Mage's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="unholy" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="26875" name="Beach Swimsuit">
+		<set name="icon" value="BranchSys3.icon1.g_co_swimsuit_event_01"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26876" name="Swimsuit of Charm">
+		<set name="icon" value="BranchSys3.icon1.g_co_swimsuit_event_02"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26877" name="Swimsuit of Temptation">
+		<set name="icon" value="BranchSys3.icon1.g_co_swimsuit_event_03"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26878" name="Underwear">
+		<set name="icon" value="BranchSys3.icon1.g_co_premium_underwear"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26882" name="Beach Dress">
+		<set name="icon" value="BranchSys3.icon1.g_co_maid_underwear_f01"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26883" name="Beach Dress V2">
+		<set name="icon" value="BranchSys3.icon1.g_co_sexy_underwear"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="26895" name="Jester's Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_hair_jester_hat_pl"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26896" name="Hat with Feather">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_hair_gorale_hat_pl"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26897" name="Red Hat with Feather">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_hair_fancy_hat_pl"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26898" name="Peak-Cap with Red Star">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_hair_peakless_cap_m"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="26899" name="Russian Hairdress">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon.g_hair_kokoshnik_f"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+</list>

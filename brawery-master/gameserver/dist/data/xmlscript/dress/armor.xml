@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "armor.dtd">
+<list>
+	<dress id="26848" name="Mithril Set Suit">
+		<set chest="437" legs="470" gloves="2450" feet="2426" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26849" name="Brigandine Set Suit">
+		<set chest="352" legs="2378" gloves="2449" feet="2425" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26850" name="Manticore Skin Set Suit">
+		<set chest="395" legs="417" gloves="2448" feet="2424" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26851" name="Apella Plate Set Suit">
+		<set chest="7861" legs="-1" gloves="7862" feet="7863" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26852" name="Apella Brigandine Set Suit">
+		<set chest="7864" legs="-1" gloves="7865" feet="7866" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26853" name="Apella Doublet Set Suit">
+		<set chest="7867" legs="-1" gloves="7868" feet="7869" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26875" name="Beach Swimsuit">
+		<set chest="26875" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26876" name="Swimsuit of Charm">
+		<set chest="26876" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26877" name="Swimsuit of Temptation">
+		<set chest="26877" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26878" name="Underwear">
+		<set chest="26878" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26882" name="Beach Dress">
+		<set chest="26882" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26883" name="Beach Dress V2">
+		<set chest="26883" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26903" name="Robot's Suit">
+		<set chest="26903" legs="-1" gloves="-1" feet="-1" helmet="26906" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26904" name="Army Suit">
+		<set chest="26904" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26905" name="Maid's Suit">
+		<set chest="26905" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26907" name="Tatto Suit">
+		<set chest="26907" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26908" name="Tatto Suit V2">
+		<set chest="26908" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26909" name="Tatto Suit V3">
+		<set chest="26909" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="26910" name="Vampire Hunter's Suit">
+		<set chest="26910" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31248" name="Christmas Suit">
+		<set chest="31248" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31249" name="Robber's Suit">
+		<set chest="31249" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31251" name="Crusader's Suit">
+		<set chest="31251" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31279" name="Wind Suit">
+		<set chest="31279" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31389" name="Wolverine Suit">
+		<set chest="31389" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31391" name="Ninja Suit">
+		<set chest="31391" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31496" name="Kadeira Suit">
+		<set chest="31496" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31497" name="Immortal Suit">
+		<set chest="31497" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31498" name="Tauti Heavy Suit">
+		<set chest="31498" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31499" name="Tauti Light Suit">
+		<set chest="31499" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31500" name="Tauti Robe Suit">
+		<set chest="31500" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31501" name="Aydios Heavy Suit">
+		<set chest="31501" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31502" name="Aydios Light Suit">
+		<set chest="31502" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31503" name="Aydios Robe Suit">
+		<set chest="31503" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31504" name="Chinese Suit Red">
+		<set chest="31504" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31505" name="Chinese Suit Blue">
+		<set chest="31505" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31506" name="Chinese Suit Purple">
+		<set chest="31506" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31507" name="Chinese Suit Pink">
+		<set chest="31507" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31508" name="Officer Suit">
+		<set chest="31508" legs="-1" gloves="-1" feet="-1" cloak="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31509" name="Beleth's Suit">
+		<set chest="31509" legs="-1" gloves="-1" feet="-1" helmet="31516"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31536" name="Halloween Suit">
+		<set chest="31536" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31552" name="Dark Knight's Suit">
+		<set chest="31552" legs="-1" gloves="-1" feet="-1" helmet="31556" cloak="31555"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31553" name="School Suit">
+		<set chest="31553" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31554" name="School Suit V2">
+		<set chest="31554" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31653" name="Captain's Suit">
+		<set chest="31653" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31654" name="Pirate's Suit">
+		<set chest="31654" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31655" name="Musketeer's Suit">
+		<set chest="31655" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31656" name="Wizard's Suit">
+		<set chest="31656" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31855" name="White Robber's Suit">
+		<set chest="31855" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31861" name="White Halloween Suit">
+		<set chest="31861" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31892" name="King Suit">
+		<set chest="31892" legs="-1" gloves="-1" feet="-1"/>
+		<price id="57" count="100000" />
+	</dress>
+	<dress id="31894" name="Archer Suit">
+		<set chest="31894" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="100000" />
+	</dress>
+</list>

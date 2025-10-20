@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-117075" y="46835" z="-3755" h="0"/>
+		<npc id="31212"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-116930" y="46591" z="360" h="44352"/>
+		<npc id="32353"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-84072" y="244573" z="-3728" h="41000"/>
+		<npc id="31212"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="46893" y="51512" z="-2976" h="47000"/>
+		<npc id="31213"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="9693" y="15478" z="-4568" h="6000"/>
+		<npc id="31214"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-45264" y="-112555" z="-240" h="61743"/>
+		<npc id="31215"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="115075" y="-178152" z="-910" h="56915"/>
+		<npc id="31216"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-80724" y="149802" z="-3044" h="24577"/>
+		<npc id="31217"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-12699" y="122817" z="-3143" h="49176"/>
+		<npc id="31218"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="15681" y="142885" z="-2706" h="15741"/>
+		<npc id="31219"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="83466" y="147899" z="-3400" h="16700"/>
+		<npc id="31220"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="82983" y="53118" z="-1488" h="31000"/>
+		<npc id="31221"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="111360" y="219410" z="-3544" h="48000"/>
+		<npc id="31222"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="117107" y="76968" z="-2688" h="34000"/>
+		<npc id="31223"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="146732" y="25848" z="-2008" h="0"/>
+		<npc id="31224"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="148031" y="-55228" z="-2728" h="48000"/>
+		<npc id="31767"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="43774" y="-47671" z="-792" h="50000"/>
+		<npc id="31768"/><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="87091" y="-143443" z="-1293" h="13029"/>
+		<npc id="32048"/><!--Event Gatekeeper-->
+	</spawn>
+</list>

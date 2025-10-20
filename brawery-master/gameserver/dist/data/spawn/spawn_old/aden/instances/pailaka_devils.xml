@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<!-- 44 dungeon spawn group -->
+	<spawn group="lematan_privates" count="1" respawn="60" respawn_random="60" period_of_day="none">
+		<point x="84704" y="-208726" z="-3336" h="0"/>
+		<npc id="18634"/>
+	</spawn>
+	<spawn group="lematan_privates" count="1" respawn="60" respawn_random="60" period_of_day="none">
+		<point x="84820" y="-208431" z="-3336" h="53247"/>
+		<npc id="18634"/>
+	</spawn>
+	<spawn group="lematan_privates" count="1" respawn="60" respawn_random="60" period_of_day="none">
+		<point x="85136" y="-208430" z="-3336" h="45055"/>
+		<npc id="18634"/>
+	</spawn>
+	<spawn group="lematan_privates" count="1" respawn="60" respawn_random="60" period_of_day="none">
+		<point x="85271" y="-208726" z="-3336" h="32768"/>
+		<npc id="18634"/>
+	</spawn>
+	<spawn group="lematan_privates" count="1" respawn="60" respawn_random="60" period_of_day="none">
+		<point x="84851" y="-209024" z="-3336" h="8192"/>
+		<npc id="18634"/>
+	</spawn>
+	<spawn group="lematan_privates" count="1" respawn="60" respawn_random="60" period_of_day="none">
+		<point x="85144" y="-208995" z="-3336" h="24576"/>
+		<npc id="18634"/>
+	</spawn>
+
+</list>

@@ -1,0 +1,110 @@
+{
+	# Включить функцию примерочной ?
+	"AllowDressService" : "true",
+
+	# Включить настройку специального оли енчанта
+	"customOlyEnchant" : "false",
+    # Уровень енчанта
+	"enchantOlyArmor" : "0",
+	"enchantOlyWeapon" : "0",
+	"enchantOlyJewelry" : "0",
+    # true - ограничить макс. заточку этим уровнем, false - у всех будет одинаковый уровень
+	"enchantOlyExceptLowerItems" : "false",
+
+    # Доп награда победителю матча Олимпиады
+    # Предмет. Формат id,count,chance;
+    # Пример: 4037,3,0;57,1000000,100;
+	"additionalOlyWinnerRewardItems" : null,
+    # Репутация клана.
+	"additionalOlyWinnerRewardCrp" : "0",
+    # Очки славы.
+	"additionalOlyWinnerRewardFame" : "0",
+    # Доп награда проигравшему в матче Олимпиады
+    # Предмет. Формат: id,count,chance;
+    # Пример: 4037,3,0;57,1000000,100;
+	"additionalOlyLoserRewardItems" : null,
+    # Репутация клана.
+	"additionalOlyLoserRewardCrp" : "0",
+    # Очки славы.
+	"additionalOlyLoserRewardFame" : "0",
+
+    # Разрешить трейд во время пвп?
+	"allowTradePvp" : "false",
+    # Разрешить трансформации во время пвп?
+	"allowTransformPvp" : "false",
+
+    # Добавить всем игрокам скилл Noblesse Blessing?
+	"addNoblesseBlessing" : "false",
+
+    # Доп награда клан репутации за убийство мобов
+    # Формат: npcId,count;
+    # Пример: 21617,15;22365,1000;
+	"crpRewardMonsters" : null,
+    # Минимальное количество хейта в процентах, для получения клан репы после смерти моба
+	"crpRewardMinHatePercent" : "0",
+
+    # Разрешить доп. награду за пвп?
+	"allowPvpRewards" : "false",
+    # Доп награда за убийство в пвп
+    # Формат: id,count,chance;
+    # Пример: 4037,3,30;57,1000000,100;
+	"pvpRewards" : null,
+    # Очки славы.
+	"pvpRewardFame" : "0",
+    # Время блокировки перед повторным получением награды с убитого игрока(сек)
+	"pvpRewardBlock" : "120",
+    # Размер хранимого объема убитых игроков
+	"pvpHolderSize" : "30",
+
+    # Специальный набор баффов в КБ
+    # Формат: id(баф),level(баф),itemId(стоимость),itemCount(стоимость);
+    # Пример: 1062,2,57,10000;1323,1,57,10000;
+	"vipBuffs" : null,
+    # Выдавать доступ к вип бафам для премиум аккаунта?
+	"vipAccessForPremium" : "false",
+    # Выдавать доступ к вип бафам при наличии специального предмета?
+	"vipAccessByItemExists" : "false",
+	"vipAccessItemId" : "0",
+
+    # Включить дополнительные награды за захват замков?
+	"allowAdditionalCastleRewards" : "false",
+    # С указанным шансом выдается предмет в количестве от min до max(выбирается рандомно независимо от шанса)
+    # Формат: itemId,min,max,chance;
+    # Награды членам клана, находящимся в игре в момент завершения осады
+	"gludioCastleRewards" : null,
+	"dionCastleRewards" : null,
+	"giranCastleRewards" : null,
+	"orenCastleRewards" : null,
+	"adenCastleRewards" : null,
+	"innadrilCastleRewards" : null,
+	"goddardCastleRewards" : null,
+	"runeCastleRewards" : null,
+	"shuttgartCastleRewards" : null,
+
+    # Награда лидеру в момент завершения осады
+	"gludioLeaderCastleRewards" : null,
+	"dionLeaderCastleRewards" : null,
+	"giranLeaderCastleRewards" : null,
+	"orenLeaderCastleRewards" : null,
+	"adenLeaderCastleRewards" : null,
+	"innadrilLeaderCastleRewards" : null,
+	"goddardLeaderCastleRewards" : null,
+	"runeLeaderCastleRewards" : null,
+	"shuttgartLeaderCastleRewards" : null,
+
+	# Боссы, дроп с которых не блокируется командным каналом
+	# указывать через ; Пример: 57;4037;6673
+	"ccNonLockableBosses" : "",
+	# Минимальный размер CC для захвата прав на дроп.
+	# При значении 0, будет использоваться стандартное - 18 человек
+	"ccMinLockableSize" : "0",
+
+	# Альтернативная работа свиток заточки Destruction.
+    # При фейле уровень заточки уменьшается на 1
+	"customDestructionEnchant" : "false",
+
+    # Дополнительная награда за получение геройства
+    # Формат: itemId,count,chance;
+	"heroRewards" : null
+
+}

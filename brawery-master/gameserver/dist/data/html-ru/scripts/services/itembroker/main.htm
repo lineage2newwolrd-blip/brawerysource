@@ -1,0 +1,22 @@
+<HTML><HEAD><BODY>Список товаров: <br>
+<font color=FFCC66>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 0 1 0 0(param=${type})}">Весь список</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:equipment {param}(param=${type})}">Снаряжение</a><br>
+<a th:if="${type == 1}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:equipment4 {param}(param=${type})}">Снаряжение +4 и выше</a><br>
+<a th:unless="${type == 5}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 0 1 0 1(param=${type})}">Редкое снаряжение</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 5 1 0 0(param=${type})}">Расходные материалы</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 6 1 0 0(param=${type})}">Ингредиенты</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 7 1 0 0(param=${type})}">Ключевые ингредиенты</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 8 1 0 0(param=${type})}">Рецепты</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 9 1 0 0(param=${type})}">Книги и амулеты</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 10 1 0 0(param=${type})}">Предметы для улучшения</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 11 1 0 0(param=${type})}">Разное</a><br>
+<a th:unless="${type == 5}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 90 1 0 0(param=${type})}">Стандартные предметы</a><br>
+</font>
+
+<font color="FF9900">
+<edit var="tofind" width=100 />
+<a th:unless="${type == 5}" th:action="@{bypass -h npc_%objectId%_services.ItemBroker:find {param} 1 $tofind(param=${type})}">Найти</a><br>
+<a action="bypass -h npc_%objectId%_Chat 0">Назад</a>
+</font>
+</BODY></HTML>

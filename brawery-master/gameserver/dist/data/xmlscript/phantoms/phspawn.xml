@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "phspawn.dtd">
+<list>
+    <!--ADEN TOWN RUNNER-->
+    <spawn type="TOWN" count="5" gradeMin="C" gradeMax="S84">
+        <territory>
+            <add x="146750" y="25812" zmin="-2066" zmax="-1966"/>
+            <add x="148344" y="28568" zmin="-2267" zmax="-2167"/>
+            <add x="148360" y="27608" zmin="-2267" zmax="-2167"/>
+            <add x="147736" y="27640" zmin="-2267" zmax="-2167"/>
+			<add x="147720" y="28536" zmin="-2267" zmax="-2167"/>
+        </territory>
+    </spawn>
+	<!--KAMAEL VILLAGE RUNNER-->
+	<spawn type="TOWN" count="5" gradeMin="NONE" gradeMax="NONE">
+        <point x="-120050" y="44500" z="360"/>
+        <superpoint>
+            <step x="-119737" y="44503" z="352">
+                <delay sec="10"/>
+            </step>
+            <step x="-119595" y="45308" z="360"/>
+            <step x="-119450" y="46656" z="360"/>
+            <step x="-119425" y="47777" z="384"/>
+            <step x="-119408" y="49213" z="8">
+                <delay sec="13"/>
+            </step>
+            <step x="-119433" y="47329" z="384"/>
+            <step x="-119266" y="46874" z="352"/>
+            <step x="-117791" y="46908" z="352"/>
+            <step x="-116910" y="46584" z="352">
+                <delay sec="15"/>
+            </step>
+        </superpoint>
+    </spawn>
+    <spawn type="TOWN" count="7" gradeMin="NONE" gradeMax="NONE">
+        <point x="-120050" y="44500" z="360"/>
+        <superpoint>
+            <step x="-119737" y="44503" z="352">
+                <delay sec="10"/>
+            </step>
+            <step x="-119595" y="45308" z="360"/>
+            <step x="-119450" y="46656" z="360"/>
+            <step x="-119425" y="47777" z="384"/>
+            <step x="-119408" y="49213" z="8">
+                <delay sec="13"/>
+            </step>
+            <step x="-119488" y="47293" z="384"/>
+            <step x="-119249" y="46863" z="352"/>
+            <step x="-117853" y="46310" z="360"/>
+            <step x="-116803" y="45591" z="352"/>
+            <step x="-115419" y="44677" z="496"/>
+            <step x="-114982" y="44671" z="512">
+                <delay sec="10"/>
+            </step>
+            <step x="-115419" y="44677" z="496"/>
+            <step x="-116743" y="45641" z="352"/>
+            <step x="-118005" y="46300" z="352"/>
+            <step x="-119364" y="46955" z="352"/>
+            <step x="-119432" y="47835" z="384"/>
+            <step x="-119404" y="49181" z="16">
+                <delay sec="13"/>
+            </step>
+            <step x="-119443" y="47775" z="384"/>
+            <step x="-119315" y="46858" z="352"/>
+            <step x="-117777" y="47095" z="352"/>
+            <step x="-117149" y="47912" z="456">
+                <delay sec="10"/>
+            </step>
+            <step x="-117213" y="47420" z="448"/>
+            <step x="-119181" y="47497" z="448"/>
+            <step x="-119429" y="47871" z="384"/>
+            <step x="-119399" y="49190" z="16">
+                <delay sec="13"/>
+            </step>
+            <step x="-119429" y="47871" z="384"/>
+            <step x="-119680" y="44533" z="360">
+                <delay sec="30"/>
+            </step>
+        </superpoint>
+    </spawn>
+</list>

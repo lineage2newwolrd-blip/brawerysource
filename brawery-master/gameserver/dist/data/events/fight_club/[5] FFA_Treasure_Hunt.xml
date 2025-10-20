@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="5" name="Treasure Hunt" impl="fightclub.FFATreasureHunt">
+        <parameter name="icon" value="Icon.skill5662"/>
+		<parameter name="desc" value="Free For All Event. Your goal is to find chests and open them! Look at other players too, you are also getting points for killing them. Event Time: 5 minutes."/>
+		<parameter name="roundRunTime" value="5"/>
+		<parameter name="rounds" value="1"/>
+		<parameter name="roundEvent" value="false"/>
+		<parameter name="min_level" value="1"/>
+		<parameter name="max_level" value="85"/>
+        <parameter name="isAutoTimed" value="true"/>
+        <parameter name="autoTimes" value="16:00,23:00"/>
+		<parameter name="teamed" value="false"/>
+		<parameter name="buffer" value="false"/>
+		<parameter name="fighterBuffs" value="1204,2;1086,2;1068,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="mageBuffs" value="1204,2;1085,3;1059,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="rootBetweenRounds" value="true"/>
+		<parameter name="excludedClasses" value=""/>
+		<parameter name="excludedSkills" value=""/>
+		<parameter name="respawnTime" value="5"/>
+		<parameter name="ressAllowed" value="false"/>
+		<parameter name="showPersonality" value="true"/>
+		<parameter name="badgesKillPlayer" value="0.3"/>
+		<parameter name="badgesKillPet" value="0"/>
+		<parameter name="badgesWin" value="5"/>
+		<parameter name="badgesDie" value="0"/>
+		<parameter name="numberOfChests" value="6"/>
+        <parameter name="topKillerReward" value="3"/>
+		<parameter name="timeForRespawningChest" value="15"/>
+		<parameter name="badgesOpenChest" value="0.4"/>
+		<parameter name="scoreForChest" value="1"/>
+		<parameter name="scoreForKilledPlayer" value="0"/>
+	</event>
+</list>

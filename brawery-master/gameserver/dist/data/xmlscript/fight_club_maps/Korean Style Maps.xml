@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "maps.dtd">
+<list>
+	<map name="[Tully_Last_Floor]">
+		<parameter name="events" value="KoreanStyle"/>
+		<parameter name="teamsCount" value="2"/>
+		<parameter name="minAllPlayers" value="1"/>
+		<parameter name="maxAllPlayers" value="24"/>
+		
+		<objects name="teamSpawns" team="1">
+			<point x="21384" y="244888" z="11088"/>
+			<point x="21450" y="244844" z="11088"/>
+			<point x="21516" y="244800" z="11088"/>
+			<point x="21582" y="244756" z="11088"/>
+			<point x="21648" y="244712" z="11088"/>
+			<point x="21714" y="244668" z="11088"/>
+			<point x="21780" y="244624" z="11088"/>
+			<point x="21846" y="244580" z="11088"/>
+			<point x="21912" y="244536" z="11088"/>
+			<point x="21978" y="244492" z="11088"/>
+			<point x="22044" y="244448" z="11088"/>
+			<point x="22110" y="244404" z="11088"/>
+			<point x="22176" y="244360" z="11088"/>
+			<point x="22242" y="244316" z="11088"/>
+			<point x="22308" y="244272" z="11088"/>
+			<point x="22374" y="244228" z="11088"/>
+			<point x="22440" y="244184" z="11088"/>
+			<point x="22506" y="244140" z="11088"/>
+			<point x="22572" y="244096" z="11088"/>
+			<point x="22638" y="244052" z="11088"/>
+			<point x="22704" y="244008" z="11088"/>
+			<point x="22770" y="243964" z="11088"/>
+			<point x="22836" y="243920" z="11088"/>
+			<point x="22902" y="243876" z="11088"/>
+			<point x="22968" y="243832" z="11088"/>
+		</objects>
+		<objects name="teamSpawns" team="2">
+			<point x="20904" y="244088" z="11088"/>
+			<point x="20969" y="244044" z="11088"/>
+			<point x="21034" y="244000" z="11088"/>
+			<point x="21099" y="243956" z="11088"/>
+			<point x="21164" y="243912" z="11088"/>
+			<point x="21229" y="243868" z="11088"/>
+			<point x="21294" y="243824" z="11088"/>
+			<point x="21359" y="243780" z="11088"/>
+			<point x="21424" y="243736" z="11088"/>
+			<point x="21489" y="243692" z="11088"/>
+			<point x="21554" y="243648" z="11088"/>
+			<point x="21619" y="243604" z="11088"/>
+			<point x="21684" y="243560" z="11088"/>
+			<point x="21749" y="243516" z="11088"/>
+			<point x="21814" y="243472" z="11088"/>
+			<point x="21879" y="243428" z="11088"/>
+			<point x="21944" y="243384" z="11088"/>
+			<point x="22009" y="243340" z="11088"/>
+			<point x="22074" y="243296" z="11088"/>
+			<point x="22139" y="243252" z="11088"/>
+			<point x="22204" y="243208" z="11088"/>
+			<point x="22269" y="243164" z="11088"/>
+			<point x="22334" y="243120" z="11088"/>
+			<point x="22399" y="243076" z="11088"/>
+			<point x="22464" y="243032" z="11088"/>
+		</objects>
+		
+		<objects name="keyLocations">
+			<point x="21528" y="244216" z="11080"/>
+			<point x="22360" y="243624" z="11080"/>
+		</objects>
+		
+		<objects name="territory">
+			<zone name="[FC_Tully_Last_Floor]" />
+		</objects>
+	</map>
+
+    <map name="[Primeval_Isle_Wharf]">
+        <parameter name="events" value="KoreanStyle"/>
+        <parameter name="teamsCount" value="2"/>
+        <parameter name="minAllPlayers" value="1"/>
+        <parameter name="maxAllPlayers" value="24"/>
+
+        <objects name="teamSpawns" team="1">
+            <point x="8440" y="-23912" z="-3744"/>
+            <point x="8488" y="-23912" z="-3744"/>
+            <point x="8552" y="-23912" z="-3744"/>
+            <point x="8600" y="-23912" z="-3744"/>
+            <point x="8664" y="-23928" z="-3744"/>
+            <point x="8712" y="-23928" z="-3744"/>
+            <point x="8776" y="-23944" z="-3744"/>
+            <point x="8840" y="-23960" z="-3744"/>
+            <point x="8904" y="-23960" z="-3744"/>
+            <point x="8968" y="-23976" z="-3744"/>
+            <point x="9032" y="-23992" z="-3744"/>
+            <point x="9096" y="-24008" z="-3744"/>
+        </objects>
+        <objects name="teamSpawns" team="2">
+            <point x="8392" y="-23928" z="-3744"/>
+            <point x="8344" y="-23928" z="-3744"/>
+            <point x="8296" y="-23928" z="-3744"/>
+            <point x="8248" y="-23928" z="-3744"/>
+            <point x="8200" y="-23944" z="-3744"/>
+            <point x="8136" y="-23944" z="-3744"/>
+            <point x="8072" y="-23960" z="-3744"/>
+            <point x="8008" y="-23976" z="-3744"/>
+            <point x="7944" y="-23992" z="-3744"/>
+            <point x="7880" y="-23992" z="-3744"/>
+            <point x="7816" y="-24008" z="-3744"/>
+            <point x="7752" y="-24024" z="-3744"/>
+        </objects>
+
+        <objects name="keyLocations">
+            <point x="9256" y="-23576" z="-3704"/>
+            <point x="7800" y="-23432" z="-3704"/>
+        </objects>
+
+        <objects name="territory">
+            <zone name="[FC_Primeval_Isle_Wharf]" />
+        </objects>
+    </map>
+
+    <map name="[SeedOfInfinity]">
+        <parameter name="events" value="KoreanStyle"/>
+        <parameter name="teamsCount" value="2"/>
+        <parameter name="minAllPlayers" value="1"/>
+        <parameter name="maxAllPlayers" value="24"/>
+
+        <objects name="teamSpawns" team="1">
+            <point x="-180696" y="209496" z="-15496"/>
+            <point x="-180696" y="209672" z="-15496"/>
+            <point x="-180680" y="209544" z="-15496"/>
+            <point x="-180680" y="209624" z="-15496"/>
+            <point x="-180680" y="209448" z="-15496"/>
+            <point x="-180680" y="209720" z="-15496"/>
+            <point x="-180664" y="209384" z="-15496"/>
+            <point x="-180664" y="209768" z="-15496"/>
+            <point x="-180648" y="209336" z="-15496"/>
+            <point x="-180664" y="209816" z="-15496"/>
+            <point x="-180632" y="209288" z="-15496"/>
+            <point x="-180648" y="209880" z="-15496"/>
+        </objects>
+        <objects name="teamSpawns" team="2">
+            <point x="-178456" y="209624" z="-15496"/>
+            <point x="-178456" y="209528" z="-15496"/>
+            <point x="-178456" y="209640" z="-15496"/>
+            <point x="-178456" y="209496" z="-15496"/>
+            <point x="-178472" y="209704" z="-15496"/>
+            <point x="-178472" y="209448" z="-15496"/>
+            <point x="-178488" y="209752" z="-15496"/>
+            <point x="-178472" y="209416" z="-15496"/>
+            <point x="-178536" y="209832" z="-15496"/>
+            <point x="-178504" y="209336" z="-15496"/>
+            <point x="-178536" y="209880" z="-15496"/>
+            <point x="-178504" y="209288" z="-15496"/>
+        </objects>
+        <objects name="keyLocations">
+            <point x="-179544" y="210424" z="-15496"/>
+            <point x="-179544" y="208888" z="-15496"/>
+        </objects>
+        <objects name="territory">
+            <zone name="[FC_Soi]" />
+        </objects>
+    </map>
+</list>

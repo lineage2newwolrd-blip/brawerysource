@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<etcitem id="26700" name="Hellblade - Sword">
+		<set name="icon" value="BranchSys2.icon.br_wp_Caladbulg_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26701" name="Claw of Destruction - Blunt">
+		<set name="icon" value="BranchSys2.icon.br_wp_tiatenon_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26702" name="Blood Brother - Big Sword">
+		<set name="icon" value="BranchSys2.icon.br_wp_tirbing_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26703" name="Shining Bow - Bow">
+		<set name="icon" value="icon.weapon_shining_bow_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26704" name="Blades of Delusion - Dual Sword">
+		<set name="icon" value="BranchSys2.icon.br_wp_astarot_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26705" name="Butcher Blades - Dual Dagger">
+		<set name="icon" value="BranchSys2.icon.br_wp_habus_knife_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26706" name="Mardil's Fan - Sword">
+		<set name="icon" value="BranchSys2.icon.br_wp_wind_of_mardil_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26707" name="Triumph Blade - Sword">
+		<set name="icon" value="icon.weapon_tysandy_blade_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26708" name="Triumph Dagger - Dagger">
+		<set name="icon" value="icon.weapon_tysandy_dagger_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26709" name="Triumph Hammer - Blunt">
+		<set name="icon" value="icon.weapon_tysandy_hammer_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26710" name="Triumph Crusher - Big Blunt">
+		<set name="icon" value="icon.weapon_tysandy_crusher_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26711" name="Triumph Two Hand Sword - Big Sword">
+		<set name="icon" value="icon.weapon_tysandy_two_hand_sword_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26712" name="Triumph Jamadhr - Dual Fist">
+		<set name="icon" value="icon.weapon_tysandy_jamadhr_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26713" name="Triumph Spear - Pole">
+		<set name="icon" value="icon.weapon_tysandy_spear_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26714" name="Triumph Staff - Blunt">
+		<set name="icon" value="icon.weapon_tysandy_staff_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26715" name="Triumph Two Hand Staff - Big Blunt">
+		<set name="icon" value="icon.weapon_tysandy_twohand_staff_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26716" name="Triumph Magic Sword - Sword">
+		<set name="icon" value="icon.weapon_tysandy_magic_sword_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26717" name="Triumph Bow - Bow">
+		<set name="icon" value="icon.weapon_tysandy_bow_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26718" name="Triumph Rapier - Rapier">
+		<set name="icon" value="icon.weapon_tysandy_rapier_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26719" name="Triumph Ancientsword - Ancient Sword">
+		<set name="icon" value="icon.weapon_tysandy_ancient_sword_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26720" name="Triumph Crossbow - Crossbow">
+		<set name="icon" value="icon.seapon_tysandy_crossbow_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26721" name="Sword of Revolution - Sword">
+		<set name="icon" value="icon.weapon_sword_of_revolution_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26722" name="Maingauche - Dagger">
+		<set name="icon" value="icon.weapon_maingauche_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26723" name="Tarbar - Blunt">
+		<set name="icon" value="icon.weapon_tarbar_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26724" name="Atuba Hammer - Big Blunt">
+		<set name="icon" value="icon.weapon_atuba_hammer_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26725" name="Claymore - Big Sword">
+		<set name="icon" value="icon.weapon_claymore_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26726" name="Bich'Hwa - Dual Fist">
+		<set name="icon" value="icon.weapon_bichhwa_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26727" name="War Pick - Pole">
+		<set name="icon" value="icon.weapon_hammer_in_flames_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26728" name="Staff of Life - Blunt">
+		<set name="icon" value="icon.weapon_life_stick_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26729" name="Goat Head Staff - Big Blunt">
+		<set name="icon" value="icon.weapon_goathead_staff_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26730" name="Sword of Magic - Sword">
+		<set name="icon" value="icon.weapon_sword_of_magic_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26731" name="Reinforced Long Bow - Bow">
+		<set name="icon" value="icon.weapon_strengthening_long_bow_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26732" name="Spinebone Sword's - Dual Sword">
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26733" name="Estoc - Rapier">
+		<set name="icon" value="icon.weapon_rapier_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26734" name="Katzbalger - Ancient Sword">
+		<set name="icon" value="icon.weapon_tulwar_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26735" name="Crossbow - Crossbow">
+		<set name="icon" value="icon.weapon_hunting_gun_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="26736" name="Warm Bear Paws - Dual Fist">
+		<set name="icon" value="icon.weapon_hunting_gun_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+</list>

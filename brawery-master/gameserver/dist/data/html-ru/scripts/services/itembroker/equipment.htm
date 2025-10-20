@@ -1,0 +1,12 @@
+<HTML><HEAD><BODY>Список снаряжения: <br>
+<font color="FFCC66">
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 1 1 0 0(param=${type})}">Оружие</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 2 1 0 0(param=${type})}">Броня</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 3 1 0 0(param=${type})}">Бижутерия</a><br>
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:list {param} 4 1 0 0(param=${type})}">Украшения</a><br>
+</font>
+
+<font color="FF9900">
+<a th:action="@{bypass -h npc_%objectId%_services.ItemBroker:main {param}(param=${type})}">Назад</a>
+</font>
+</BODY></HTML>

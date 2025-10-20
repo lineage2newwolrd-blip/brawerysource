@@ -1,0 +1,84 @@
+package org.mmocore.gameserver.scripts.ai.pts;
+
+import org.mmocore.gameserver.utils.ai.CodeInfoList;
+import org.mmocore.gameserver.model.instances.NpcInstance;
+import org.mmocore.gameserver.utils.ai.CodeInfo;
+import org.mmocore.gameserver.object.Player;
+import org.mmocore.gameserver.object.Creature;
+import org.mmocore.gameserver.model.team.Party;
+import org.mmocore.gameserver.utils.AiUtils;
+
+public class brilliant_fang extends wizard_pa_saint_ddmagic2
+{
+	public brilliant_fang(final NpcInstance actor){super(actor);}
+
+	@Override
+	protected void onEvtDead(Creature attacker)
+	{
+		CodeInfoList always_list = null;
+		CodeInfo code_info = null;
+		int i0 = 0;
+		int i9 = 0;
+		Party lparty = attacker.getPlayer() != null? attacker.getPlayer().getParty() : null;
+		Player member = null;
+		CodeInfoList random1_list = null;
+		Creature target = null;
+
+		always_list = AiUtils.AllocCodeInfoList();
+		random1_list = AiUtils.AllocCodeInfoList();
+		target = attacker;
+		if (AiUtils.HaveMemo(target, 236) == 1 && GetOneTimeQuestFlag(target, 236) == 0 && AiUtils.GetMemoState(target, 236) == 21 && AiUtils.OwnItemCount(target, 9743) < 62)
+		{
+			always_list.SetInfo(0, target);
+		}
+		if (AiUtils.HaveMemo(target, 236) == 1 && GetOneTimeQuestFlag(target, 236) == 0 && AiUtils.GetMemoState(target, 236) == 21 && AiUtils.OwnItemCount(target, 9743) < 62)
+		{
+			always_list.SetInfo(0, target);
+		}
+		if (!AiUtils.IsNull(lparty))
+		{
+			for (i9 = 0; i9 < lparty.getMemberCount(); i9++)
+			{
+				target = GetMemberOfParty(lparty, i9);
+				if (AiUtils.HaveMemo(target, 236) == 1 && GetOneTimeQuestFlag(target, 236) == 0 && AiUtils.GetMemoState(target, 236) == 21 && AiUtils.OwnItemCount(target, 9743) < 62)
+				{
+					always_list.SetInfo(0, target);
+				}
+			}
+		}
+		while (!AiUtils.IsNull(code_info = always_list.Next()))
+		{
+			if (code_info.getCode() == 0)
+			{
+				SetCurrentQuestID(236);
+				target = code_info.RandomSelectOne();
+				if (!AiUtils.IsNull(target) && DistFromMe(target) <= 1500)
+				{
+					i0 = AiUtils.Rand(100);
+					if (i0 < 70)
+					{
+						GiveItem1(target, 9743, 1);
+						if (AiUtils.OwnItemCount(target, 9743) >= 61)
+						{
+							SetFlagJournal(target, 236, 13);
+							ShowQuestMark(target, 236);
+							SoundEffect(target, "ItemSound.quest_middle");
+							SetMemoState(target, 236, 22);
+						}
+						else
+						{
+							SoundEffect(target, "ItemSound.quest_itemget");
+						}
+					}
+				}
+			}
+		}
+		code_info = random1_list.RandomSelectOne();
+		if (!AiUtils.IsNull(code_info))
+		{
+			code_info.getCode();
+		}
+		super.onEvtDead(attacker);
+	}
+
+}

@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<etcitem id="31248" name="Christmas Suit">
+		<set name="icon" value="ChristmasTex.armor_ev_santas_clothes"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31249" name="Robber's Suit">
+		<set name="icon" value="LineageCustom2.ico.Asm_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31250" name="Robber's Hood">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom2.ico.Hel_asm_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="31251" name="Crusader's Suit">
+		<set name="icon" value="LineageUniqueTex.uniqarmor_icon"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31272" name="Hero's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="HeroCloak.hero_r_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31273" name="Cloak of Honor">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="HeroCloak.hero_b_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31277" name="Crimson Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Cloak_addition.Icon.g_cloak_anniversary"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31278" name="Golden Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Cloak_addition.Icon.g_cloak_noblesse"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="31279" name="Wind Suit">
+		<set name="icon" value="BranchSys3.g_co_paiwan_u"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31292" name="Raccoon Helper Necklace">
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.pet_controler_i02"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="31293" name="Cute Bear Helper Necklace">
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.pet_controler_i01"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="31294" name="Black Bear Helper Necklace">
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.pet_controler_i01"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="31295" name="Wing Hound Helper Necklace">
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.pet_controler_i01"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="31296" name="Sabertooth Cougar Helper Necklace">
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.pet_controler_i01"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="31297" name="Night Hawk Helper Necklace">
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.pet_controler_i02"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<armor id="31301" name="Seraph Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Dods_Helmets.ICONS.seraph_icon"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31302" name="Immortal Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Dods_Helmets.ICONS.immortal_icon"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31303" name="Eternal Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Dods_Helmets.ICONS.eternal_icon"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31304" name="Twilight Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Dods_Helmets.ICONS.twilight_icon"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="31389" name="Wolverine Suit">
+		<set name="icon" value="LineageCustom2.anakim_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31391" name="Ninja Suit">
+		<set name="icon" value="BranchSys3.icon1.g_co_ninja_u"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31496" name="Kadeira Suit">
+		<set name="icon" value="Seraph_armor.armor_t401_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31497" name="Immortal Suit">
+		<set name="icon" value="Immortal_armor.armor_t503_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31498" name="Tauti Heavy Suit">
+		<set name="icon" value="Tauti_armor.upper_h_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31499" name="Tauti Light Suit">
+		<set name="icon" value="Tauti_armor.upper_l_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31500" name="Tauti Robe Suit">
+		<set name="icon" value="Tauti_armor.upper_r_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31501" name="Aydios Heavy Suit">
+		<set name="icon" value="Eternal_armor.armor_t701_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31502" name="Aydios Light Suit">
+		<set name="icon" value="Eternal_armor.armor_t702_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31503" name="Aydios Robe Suit">
+		<set name="icon" value="Eternal_armor.armor_t703_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31504" name="Chinese Suit Red">
+		<set name="icon" value="Chinadress.qipao_armor_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31505" name="Chinese Suit Blue">
+		<set name="icon" value="Chinadress.qipao_armor_a_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31506" name="Chinese Suit Purple">
+		<set name="icon" value="Chinadress.qipao_armor_b_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31507" name="Chinese Suit Pink">
+		<set name="icon" value="Chinadress.qipao_armor_c_u_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31508" name="Officer Suit">
+		<set name="icon" value="navy_uniform.navy_uniform_a_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31509" name="Beleth's Suit">
+		<set name="icon" value="Beres_armor.g_co_beres_u"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31516" name="Beleth's Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Beres_armor.g_co_beres_hair"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="31536" name="Halloween Suit">
+		<set name="icon" value="LineageCustom3.hwn_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31540" name="Classic Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31541" name="Cloak of the Ferocity">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31542" name="Dragonslayer Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31543" name="Demon Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31544" name="Fortress Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31545" name="Cloak of the Fallen">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.vesper_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="31552" name="Dark Knight's Suit">
+		<set name="icon" value="LineageCustom4.Dark_Kninght"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31553" name="School Suit">
+		<set name="icon" value="LineageCustom4.Br_schoollook"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31554" name="School Suit V2">
+		<set name="icon" value="LineageCustom4.Br_schoollook_b"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31555" name="Dark Knight's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom4.cloak_darken_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31556" name="Dark Knight's Helmet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom4.Dark_helmet"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31563" name="Antharas Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31564" name="Duke's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31565" name="Magician's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31566" name="Archer's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="5"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="5"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31567" name="Healer's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="5"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="5"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31568" name="Knight's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="5"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="5"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31569" name="Dark Dragon's Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31570" name="Rogue's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="5"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31571" name="Summoner's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="5"/>
+			<attribute element="wind" value="5"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="5"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31572" name="Valakas Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31573" name="Warrior's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="5"/>
+			<attribute element="wind" value="5"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31574" name="Mage's Cloak 2">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Class_cloack.Class_cloack_i00"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="5"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31587" name="Elegia Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="sets_cloak.elegia_icon"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="15"/>
+			<attribute element="water" value="20"/>
+			<attribute element="wind" value="15"/>
+			<attribute element="earth" value="20"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="unholy" value="20"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<armor id="31588" name="Vorpal Cloak">
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="sets_cloak.vorpal_icon"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="20"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="20"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="holy" value="20"/>
+			<attribute element="unholy" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="31653" name="Captain's Suit">
+		<set name="icon" value="LineageCustom5.captain_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31654" name="Pirate's Suit">
+		<set name="icon" value="LineageCustom5.pirate_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31655" name="Musketeer's Suit">
+		<set name="icon" value="LineageCustom5.mst_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31656" name="Wizard's Suit">
+		<set name="icon" value="LineageCustom5.wzd_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31657" name="Captain's Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom5.H_captain_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31658" name="Pirate's Bandana">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom5.H_pirate_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31659" name="Musketeer's Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom5.H_mst_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31660" name="Wizard's Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom5.H_wzd_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="31854" name="White Robber's Hood">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom2.ico.Hel_asmw_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="31855" name="White Robber's Suit">
+		<set name="icon" value="LineageCustom2.ico.Asmw_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31861" name="White Halloween Suit">
+		<set name="icon" value="LineageCustom3.mgc_i00"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<etcitem id="31892" name="King Suit">
+		<set name="icon" value="LineageCustom6.king_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31893" name="Crown">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom6.King_crown_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="31894" name="Archer Suit">
+		<set name="icon" value="LineageCustom7.arc_ico"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+	</etcitem>
+	<armor id="31895" name="Archer Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="LineageCustom7.Harc_ico"/>
+		<set name="price" value="0"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+</list>

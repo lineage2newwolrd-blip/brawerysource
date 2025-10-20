@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="custom_observation_manager" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="83656" y="148856" z="-3400" h="32768"/>
+		<npc id="13298"/><!--Game Manager-->
+	</spawn>
+	<spawn group="custom_observation_manager" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="116280" y="77016" z="-2710" h="0"/>
+		<npc id="13298"/><!--Game Manager-->
+	</spawn>
+	<spawn group="custom_observation_manager" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147384" y="-55432" z="-2720" h="0"/>
+		<npc id="13298"/><!--Game Manager-->
+	</spawn>
+	<spawn group="custom_observation_manager" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="44194" y="-48500" z="-780" h="32768"/>
+		<npc id="13298"/><!--Game Manager-->
+	</spawn>
+</list>

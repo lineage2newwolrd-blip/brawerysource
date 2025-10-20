@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_game" default="compile.module.game">
+    <dirname property="module.game.basedir" file="${ant.file.module_game}"/>
+
+    <property name="compiler.args.game" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+
+    <property name="game.output.dir" value="${module.game.basedir}/../../../out/production/game"/>
+    <property name="game.testoutput.dir" value="${module.game.basedir}/../../../out/test/game"/>
+    <property name="game.jar.file" value="${module.game.basedir}/../../../out/gameserver.jar"/>
+    <property name="scripts.output.dir" value="${module.game.basedir}/../../../out/production/scripts"/>
+    <property name="scripts.jar.file" value="${module.game.basedir}/../../../out/scripts-1.0.jar"/>
+    <taskdef resource="proguard/ant/task.properties"
+             classpath="${basedir}/proguard6.0.3/lib/proguard.jar"/>
+
+    <path id="game.module.bootclasspath">
+        <!-- Paths to be included in compilation bootclasspath -->
+    </path>
+
+    <path id="game.module.production.classpath">
+        <path refid="library.lib.classpath"/>
+        <pathelement location="${commons.output.dir}"/>
+    </path>
+
+    <path id="game.module.scripts.classpath">
+        <path refid="library.lib.classpath"/>
+        <pathelement location="${commons.output.dir}"/>
+        <pathelement location="${game.output.dir}"/>
+    </path>
+
+    <path id="game.runtime.production.module.classpath">
+        <pathelement location="${game.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+        <path refid="commons.runtime.production.module.classpath"/>
+    </path>
+
+    <path id="game.module.classpath">
+        <pathelement location="${game.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+        <pathelement location="${commons.testoutput.dir}"/>
+        <pathelement location="${commons.output.dir}"/>
+    </path>
+
+    <path id="game.runtime.module.classpath">
+        <pathelement location="${game.testoutput.dir}"/>
+        <pathelement location="${game.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+        <path refid="commons.runtime.module.classpath"/>
+    </path>
+
+
+    <patternset id="excluded.from.module.game">
+        <patternset refid="ignored.files"/>
+    </patternset>
+    <patternset id="excluded.from.module.gs-dist">
+        <patternset refid="ignored.files"/>
+    </patternset>
+
+    <patternset id="excluded.from.compilation.game">
+        <patternset refid="excluded.from.module.game"/>
+        <patternset refid="excluded.from.module.gs-dist"/>
+    </patternset>
+
+    <path id="game.module.sourcepath">
+        <dirset dir="${module.game.basedir}">
+            <include name="java"/>
+        </dirset>
+    </path>
+
+
+    <target name="compile.module.game" depends="compile.module.game.main,compile.module.game.scripts,compile.module.game.obfuscate"
+            description="Compile modules game"/>
+
+    <target name="compile.module.game.main" depends="compile.module.commons"
+            description="Compile modules game; production classes">
+        <mkdir dir="${game.output.dir}"/>
+        <javac destdir="${game.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}"
+               memorymaximumsize="${compiler.max.memory}" fork="true">
+            <compilerarg line="${compiler.args.game}"/>
+            <bootclasspath refid="game.module.bootclasspath"/>
+            <classpath refid="game.module.production.classpath"/>
+            <src refid="game.module.sourcepath"/>
+            <patternset refid="excluded.from.compilation.game"/>
+        </javac>
+
+        <copy todir="${game.output.dir}">
+            <fileset dir="${module.game.basedir}/java">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+        </copy>
+
+        <jar destfile="${game.jar.file}">
+            <fileset dir="${game.output.dir}"/>
+            <fileset dir="${module.game.basedir}/resources"/>
+        </jar>
+    </target>
+
+    <target name="clean.module.game" description="cleanup module">
+        <delete dir="${game.output.dir}"/>
+        <delete dir="${game.testoutput.dir}"/>
+        <delete dir="${scripts.output.dir}"/>
+    </target>
+
+    <target name="compile.module.game.scripts">
+        <mkdir dir="${scripts.output.dir}"/>
+        <javac destdir="${scripts.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}"
+               memorymaximumsize="${compiler.max.memory}" fork="true">
+            <compilerarg line="${compiler.args.game}"/>
+            <bootclasspath refid="game.module.bootclasspath"/>
+            <classpath refid="game.module.scripts.classpath"/>
+            <src path="${basedir}\gameserver\dist\data\scripts"/>
+            <patternset refid="excluded.from.compilation.game"/>
+        </javac>
+        <jar destfile="${scripts.jar.file}">
+            <fileset dir="${scripts.output.dir}"/>
+        </jar>
+    </target>
+
+    <!-- ANT OBFUSCATE TASK -->
+    <target name="compile.module.game.obfuscate">
+        <proguard
+                shrink="false"
+                optimize="false"
+                allowaccessmodification="false"
+                usemixedcaseclassnames="false"
+                defaultpackage=""
+                skipnonpubliclibraryclasses="false"
+                printseeds="out/obfuscateseeds.txt"
+                printusage="out/obfuscateusage.txt"
+                printmapping="out/obfuscatemapping.txt">
+
+            <!-- java libraries my java application depends on -->
+            <libraryjar name="${java.home}/lib/rt.jar"/>
+            <libraryjar name="${commons.jar.file}"/>
+            <libraryjar refid="library.lib.classpath"/>
+
+            <!-- specify which jar files should be obfuscated -->
+            <injar name="${game.jar.file}"/>
+            <injar name="${scripts.jar.file}"/>
+
+            <!-- the output jar file that should be created with the obfuscated java class files -->
+            <outjar dir="out\protected"/>
+
+            <!-- don't obfuscate this method -->
+            <keep name="org.mmocore.gameserver.GameServer">
+                <method name="main"/>
+            </keep>
+            <keep name="org.jts.**">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="ru.akumu.smartguard.**">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="smartguard.**">
+                <method/>
+                <field/>
+            </keep>
+
+            <dontnote name="org.apache.commons.pool.**"/>
+            <dontnote name="org.apache.logging.log4j.**"/>
+            <dontnote name="javax.transaction.**"/>
+            <dontnote name="javax.annotation.**"/>
+            <dontnote name="net.jcip.annotations.**"/>
+            <dontnote name="sun.applet.**"/>
+            <dontnote name="sun.tools.**"/>
+
+            <keep name="org.mmocore.gameserver.object.*">
+                <constructor parameters="int,***"/>
+            </keep>
+            <keep name="org.mmocore.gameserver.**" extends="org.mmocore.gameserver.model.entity.events.Event">
+                <constructor parameters="org.mmocore.commons.collections.MultiValueSet"/>
+            </keep>
+            <keep name="org.mmocore.gameserver.model.entity.residence.*">
+                <constructor parameters="org.mmocore.gameserver.templates.StatsSet"/>
+            </keep>
+            <keep name="org.mmocore.gameserver.skills.effects.*">
+                <constructor parameters="org.mmocore.gameserver.object.Creature, org.mmocore.gameserver.object.Creature, org.mmocore.gameserver.skills.SkillEntry, org.mmocore.gameserver.skills.effects.EffectTemplate"/>
+            </keep>
+            <keep name="org.mmocore.gameserver.skills.skillclasses.*">
+                <constructor parameters="org.mmocore.gameserver.templates.StatsSet"/>
+            </keep>
+            <keep name="org.mmocore.gameserver.stats.funcs.*">
+                <constructor parameters="org.mmocore.gameserver.templates.StatsSet, int, org.mmocore.gameserver.stats.Stats, java.lang.Object, double"/>
+            </keep>
+            <keep name="org.mmocore.gameserver.handler.bypass.Bypass">
+                <method/>
+            </keep>
+            <keep name="org.mmocore.gameserver.model.base.PlayerAccess">
+                <method/>
+                <field/>
+            </keep>
+            <keep extends="java.lang.Enum">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="org.mmocore.gameserver.configuration.**">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="org.mmocore.gameserver.data.**" includedescriptorclasses="true">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="handler.**" includedescriptorclasses="true">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="services.**" includedescriptorclasses="true">
+                <method/>
+                <field/>
+            </keep>
+            <keep name="**" extends="org.mmocore.gameserver.scripts.ai.pts.default_npc" includedescriptorclasses="true">
+                <field/>
+            </keep>
+            <keep name="org.mmocore.gameserver.model.entity.events.impl.AbstractFightClub" includedescriptorclasses="true">
+                <method/>
+                <field/>
+            </keep>
+
+            <keepattributes name="InnerClasses,Signature,Deprecated,*Annotation*"/>
+            <keepdirectories name="**"/>
+            <keepnames name="**"/>
+        </proguard>
+
+        <!-- delete the "injars" when obfuscation is complete -->
+        <!--delete>
+            <fileset dir="${jar.dir}">
+                <include name="${jar-file-name}"/>
+                <include name="truexml.jar"/>
+                <include name="truelicense.jar"/>
+                <include name="trueswing.jar"/>
+            </fileset>
+        </delete-->
+
+    </target>
+
+
+</project>
