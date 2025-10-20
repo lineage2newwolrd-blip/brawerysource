@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: El_PombaritoJR
+Build-Jdk: 21.0.6
+Class-Path: proguard-base-6.0.3.jar proguard-retrace-6.0.3.jar
+Main-Class: proguard.gui.ProGuardGUI
+Created-By: Maven Integration for Eclipse
+
